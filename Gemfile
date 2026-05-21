@@ -44,3 +44,7 @@ end
 # gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "htmlbeautifier", "~> 1.4", :group => :development
+
+group :production do
+  gem "pg", "1.3.5"
+end
